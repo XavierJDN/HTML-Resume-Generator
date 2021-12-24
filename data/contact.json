@@ -1,0 +1,22 @@
+{
+    "github":{
+        "ref":"https://github.com/XavierJDN",
+        "iconClass":["fab",  "fa-github"]
+    },
+    "email":{
+        "ref":"mailto:jouslin@nowray.net",
+        "iconClass":["fab", "fas", "fa-at"]
+    },
+    "linkedin":{
+        "ref":"https://www.linkedin.com/in/xavier-jouslin-439896225/",
+        "iconClass":["fab", "fa-linkedin-in"]       
+    },
+    "tel":{
+        "ref":"tel:+1 (514)2093938",
+        "iconClass":["fab", "fas", "fa-phone-alt"]
+    },
+    "home":{
+        "ref":"3375, avenue RidgeWood Montréal(Québec) H3V 1B4",
+        "iconClass":[]
+    }
+}

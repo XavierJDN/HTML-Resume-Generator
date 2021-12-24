@@ -1,0 +1,54 @@
+{
+    "fr":
+    {
+        "about-me":"A propos de moi",
+        "knowledge":"Connaissance",
+        "school":"Parcours Académique",
+        "job":"Expérience",
+        "hobbies":"Loisirs",
+        "download":{
+            "title":"Télécharger mon cv",
+            "ref":"/fr/cv_print"
+        },
+        "footer":{
+            "tel":{
+                "title":"Téléphone",
+                "contact":["tel"]
+            },
+            "email":{
+                "title":"Couriel",
+                "contact":["email"]
+            },
+            "follow-me":{
+                "title":"Me suivre",
+                "contact":["github", "linkedin"]
+            }
+        }
+    },
+    "en":
+    {
+        "about-me":"About Me",
+        "knowledge":"Knowledge",
+        "school":"Academic Degree",
+        "job":"Experience",
+        "hobbies":"Hobbies",
+        "download":{
+            "title":"Downlaod my cv",
+            "ref":"/en/cv_print"
+        },
+        "footer":{
+            "tel":{
+                "title":"Phone",
+                "contact":["tel"]
+            },
+            "email":{
+                "title":"Email",
+                "contact":["email"]
+            },
+            "follow-me":{
+                "title":"Follow Me",
+                "contact":["github", "linkedin"]
+            }
+        }
+    }
+}

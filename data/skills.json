@@ -1,0 +1,75 @@
+{
+    "computer":
+    {
+        "basic":
+        [
+            "JavaScript",
+            "TypeScript",
+            "IntelliJ IDE",
+            "Django",
+            "Angualar",
+            "AJAX"
+        ],
+        "advanced":
+        [
+            "Python",
+            "C++",
+            "Java",
+            "HTML",
+            "CSS",
+            "Visual Studio",
+            "Git",
+            "Anaconda"
+        ]
+    },
+    "language":
+    {
+        "fr":{
+            "level":"C2",
+            "icon":"🇫🇷"
+        },
+        "en":{
+            "level":"C1",
+            "icon":"🇬🇧"
+        }
+    },
+    "fr":
+    {
+        "basic":"connaissance basique en informatique",
+        "advanced":"Bonne connaissance en informatique",
+        "languageHeader":"Languages",
+        "language":
+        {
+            "fr":
+            {
+                "title":"Français",
+                "specification":"Langue natale"
+            },
+            "en":
+            {
+                "title":"Anglais",
+                "specification":"Avancé"
+            }
+        }
+    },
+    "en":
+    {
+        "header":"Knowledge",
+        "basic":"Basic knowledge in computer science",
+        "advanced":"intermediate knowledge in computer science",
+        "languageHeader":"Languages",
+        "language":
+        {
+            "fr":
+            {
+                "title":"French",
+                "specification":"Native language"
+            },
+            "en":
+            {
+                "title":"English",
+                "specification":"Advanced"
+            }
+        }
+    }
+}

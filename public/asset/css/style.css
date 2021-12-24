@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  color: #1C9C94;
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+article{
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, footer{
+  margin: 0 auto;
+}
+header{
+  width:100%;
+  position:fixed;
+  top:0;
+  display:flex;
+  justify-content: space-between;
+  padding: 0em;
+  text-align: center;
+  background-color:rgb(28, 28, 28);
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+}
+
+nav{
+  visibility: visible;
+  margin: 1em 0
+}
+
+nav > a{
+  transition: 0.2s;
+  margin: 0 1em;
+  color:white
+}
+
+nav > .downlaod-nav{
+  padding:0.2em;
+  border: 0.2em white solid;
+  border-radius: 0.5em;
+}
+
+header section{
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+h1{
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
+h3{
+  text-transform: uppercase;
+}
+
+h3, h4{
+  font-weight: bold;
+}
+
+main{
+  max-width: 1140px;
+}
+
+main section:not(:last-child){
+  border-bottom: 1px solid #ccc;
+}
+
+
+.mobile-menu-toogle{
+  visibility: hidden;
+  border:none;
+  font-size: x-large;
+  margin: 0;
+  margin:1em 0;
+  color:white;
+  transform:rotate(90deg);
+  background-color: transparent;
+}
+
+.top-of-site-link{
+  position:fixed;
+  opacity:0;
+  right:0;
+  bottom:0;
+  transition: 0.2s;
+}
+
+#info{
+  display:flex;
+  justify-content: center;
+}
+
+main section:first-child{
+  text-align: center;
+  margin-top: 3em;
+}
+
+#about-me a > i.fab, .top-of-site-link > i.fab{
+  border-color: rgb(28, 28, 28);
+  color:rgb(28, 28, 28);
+}
+
+#contact-me{
+  display:flex;
+  justify-content: center;
+  padding:0;
+}
+
+#contact{
+  display:flex;
+  flex-direction: column;
+}
+
+#contact > h3{
+  align-self: center;
+}
+
+form{
+  display:grid;
+  grid-template: 0.2fr 1fr 2fr 0.7fr 0.2fr/ 0.7fr 2fr;
+  border: rgb(28, 28, 28) 1px solid;
+  border-radius: 4px;
+}
+
+form input[type="submit"], input{
+  width:10em;
+}
+
+form > *{
+  margin:1em;
+}
+
+input:not(input[type="submit"]){
+  height: 1em;
+}
+
+.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 2em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
+a .fab {
+  color: white;
+}
+
+.skills {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.skills > li{
+  text-align: center;
+  border: 1px solid #6D6D6D;
+  background-color: white;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+.skills .column {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+#lang > li, #follow-me > ul{
+  display:flex;
+  padding:0;
+}
+
+.skills .column ul, ul.job-description {
+  list-style-type: none;
+}
+
+.skills .column ul > li:before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+.school-title, .job-title {
+  text-transform: capitalize;
+  display:flex;
+  justify-content: space-between;
+}
+.school-title > span{
+  display:flex;
+  justify-content: space-between;
+}
+#school-degree li > *{
+  margin:0;
+}
+
+ul.job-description li:before{
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+#tel, #email{
+  display:flex;
+  flex-direction: column;
+}
+
+#tel > ul, #email > ul{
+  padding:0;
+}
+footer {
+  padding: 1em 2.5em;
+  background: rgb(28, 28, 28);
+  color: white;
+  text-align: left;
+}
+
+footer > ul{
+  display:flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .course {
+    display: block;
+  }
+
+  .mobile-menu-toogle{
+    margin: 0 2em 0;
+    visibility: visible;
+    cursor:pointer;
+  }
+
+  nav{
+    background-color: rgb(28, 28, 28);
+    display:flex;
+    text-align: left;
+    flex-direction:column;
+    top: 3em;
+    justify-content: left;
+    padding: 0 0 1.5em;
+    width:81%;
+    margin: 0 0.5em;
+    position:fixed;
+    visibility: hidden;
+    padding:1em 10em 1em 0;
+  }
+  nav > a:last-child{
+    width:10em;
+  }
+
+  nav > a{
+    padding:0.1em 0;
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+  #job .skills{
+    width: 10em;
+  }
+
+  .skills .column{
+    width:100%;
+  }
+
+  .top-of-site-link{
+    font-size: 10px;
+  }
+
+  .course .title, .course .descrition {
+    max-width: 100%;
+  }
+
+  main section{
+    margin-right: 2.5em;
+    margin-left:1em;
+    padding-left:0; 
+  } 
+}
+
+@media only screen and (max-width: 600px) {
+
+  footer > ul{
+    flex-direction: column;
+  }
+
+}

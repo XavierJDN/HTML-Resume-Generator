@@ -1,0 +1,25 @@
+{
+    "fr":
+    [
+        {
+            "title":"Grand intérêt pour les nouvelles technologie",
+            "description":"Étudie les différents  technologies Blockchain et dans la technologie quantique. Participation dans différents projets visant a aider les technologie Blockchain a évalué comme Brave, Cardano ou Bitcoin"
+        },
+        {
+            "title":"Activité Activité physique favorite",
+            "description":"S'entraine en course a pied. Cours régulièrement tout seul ou accompagné environ 3 fois par semaine"
+        }
+    ],
+    "en":
+    [
+        {
+            "title":"Big interest in new technology",
+            "description":"Study blockchain technology and quantum technology. I help the developpement of blockchain project like Brave, Cardano or Bitcoin."
+        },
+        {
+            "title":"Favorite sport",
+            "description":"I practice running 3 times in a week, i go running alone or with people."
+        }
+    ]
+}
+    

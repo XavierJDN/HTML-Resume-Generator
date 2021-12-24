@@ -1,0 +1,117 @@
+html{
+    position:relative;
+    min-height: 100%;
+}
+body{
+    margin:0 5em;
+}
+
+header > h1{
+    margin-bottom: 0;
+}
+
+p{
+    margin: 0;
+    text-align: justify;
+}
+
+h2{
+    color:#0898FF;
+    margin:0.5em 0;
+}
+
+ul{
+    padding:0;
+    list-style: none;
+}
+
+.skills .list-computer-skills{
+    padding:0 1em;
+}
+
+.skills h4{
+    margin: 0;
+}
+
+.list-computer-skills{
+    display:flex;
+}
+
+.list-container{
+    display:flex;
+    flex-direction:column;
+}
+
+.list-computer-skills > li{
+    block-size: max-content;
+    text-align: center;
+    border: 1px solid #6D6D6D;
+    background-color: white;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+#summary{
+    width:75em;
+    text-align: justify;
+}
+
+#academic-program{
+    display:flex;
+    flex-direction: column;
+}
+
+#academic-program span{
+    display:flex;
+    align-content: center;
+}
+
+#academic-program h3, #academic-program p{
+    margin-bottom:0;
+}
+
+#seperator-program{
+    border-right:0.1em black solid;
+    padding-right:0.5em;
+    margin-right:0.5em;
+}
+
+.program-title{
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+.program-title + ul{
+    list-style: square;
+    padding-left: 3em;
+}
+
+.program-title> p{
+    height:1em;
+    text-align: center;
+    margin-top:1.25em;
+}
+
+#layout-cv{
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+}
+#layout-cv > li > ul{
+    display:flex;
+    flex-direction: column;
+}
+
+#layout-cv > li:nth-child(1){
+    width:20em;
+    padding-right: 3em;
+}
+
+#layout-cv > li:nth-child(2){
+    width:45em;
+}
+
+* {
+    -webkit-print-color-adjust: exact;   /* Chrome, Safari, Edge */
+    color-adjust: exact;                 /*Firefox*/
+}

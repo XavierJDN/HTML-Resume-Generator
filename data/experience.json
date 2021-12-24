@@ -1,0 +1,143 @@
+{
+    "fr":
+    [
+        {
+            "id":"0",
+            "title":"Projet Intégrateur - Polytechnique Montréal",
+            "time":"2021",
+            "description":[
+                "Concevoir un robot avec un processor AVR",
+                "Analyser un problème complexe",
+                "Utiliser les concepts de PWM, UART, Makefile",
+                "Rechercher dans la documentation technique",
+                "Travailler en équipe efficace"
+            ],
+            "skills":[
+                "C++",
+                "processeur AVR",
+                "Makefile",
+                "Git"
+            ]
+        },
+        {
+            "id":"1",
+            "title":"Membre de société technique - Polyloop / Polytechnique Montréal",
+            "time":"2020-...",
+            "description":[
+                "Concevoir une interface graphique web selon des spécifications fonctionnelles",
+                "Concevoir des bases de données",
+                "Modéliser des diagrammes conceptuels d’un problème",
+                "Présenter un suivi hebdomadaire de projet",
+                "Rédiger des compte-rendus précis des réunions"
+            ],
+            "skills":[
+                "Python",
+                "Django",
+                "Anaconda",
+                "TypeScript",
+                "HTML",
+                "CSS",
+                "Angular",
+                "AJAX"
+            ]
+        },
+        {
+            "title":"Projet de conception d’un prototype - Cégep",
+            "time":"2019",
+            "description":[
+                "Création d'une plateforme rotative synchronisée à un écran",
+                "Gérer un projet sur tous les aspects logiciels",
+                "Rechercher la résolution d'un problème complexe",
+                "Travailler avec Blender et Python"
+            ],
+            "skills":[
+                "Python",
+                "Blender"
+            ]
+        },
+        {
+            "id":"2",
+            "title":"Service à la clientèle - Première Moisson CDN",
+            "time":"2021-...",
+            "description":[
+                "Accompagner les clients dans la recherche de produits",
+                "Comprendre les besoins d'un client",
+                "Proposer un produit à leur besoin très vite",
+                "Travailler en équipe"
+            ],
+            "skills":[]
+        }
+
+    ],
+    "en":
+    [
+        {
+            "id":"0",
+            "title":"First Year Project of Bachelor - Polytechnique Montréal",
+            "time":"2021",
+            "description":[
+                "Build a robot wiht a AVR processor",
+                "Analyze a complex problem",
+                "Use of PWM, UART and Makefile ",
+                "Search in technical documents",
+                "Work in team"
+            ],
+            "skills":[
+                "C++",
+                "AVR processor",
+                "Makefile",
+                "Git"
+            ]
+        },
+        {
+            "id":"1",
+            "title":"Student Company's member - Polyloop / Polytechnique Montréal",
+            "time":"2020-...",
+            "description":[
+                "Build a graphic user interface with specification",
+                "Build a database to save sensor's data",
+                "Document the update of the project",
+                "Prensent a weekly update of the project to the member of the company",
+                "Write a report of a meeting"
+            ],
+            "skills":[
+                "Python",
+                "Django",
+                "Anaconda",
+                "TypeScript",
+                "HTML",
+                "CSS",
+                "Angular",
+                "AJAX"
+            ]
+        },
+        {
+            "id":"2",
+            "title":"Build a prototype - Cégep",
+            "time":"2019",
+            "description":[
+                "Create a rotate plateform synchronyze with a screen",
+                "Manage software developpement of a project",
+                "Analyze a complex problem",
+                "Work with Blender and Python"
+            ],
+            "skills":[
+                "Python",
+                "Blender"
+            ]
+        },
+        {
+            "id":"3",
+            "title":"Client Service - Première Moisson CDN",
+            "time":"2021-...",
+            "description":[
+                "Help client to search the desire product",
+                "Understand the needs of a client",
+                "Propose a product that correspond to the client's need",
+                "Team work"
+            ],
+            "skills":[]
+        }
+
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "fr":
+    [
+        {
+            "degree":"Baccalauréat en Génie Informatique",
+            "time":"2020-...",
+            "school":"Polytechnique Montréal",
+            "specification":"30 crédits"
+        },
+        {
+            "degree":"Diplôme du Baccalauréat français | série Scientifique | mention Bien",
+            "time":"2020",
+            "school":"Collège International Marie de France",
+            "specification":"(équivalence au Diplôme d'Étude Collégial(DEC) en science de la nature)"
+        }
+    ],
+    "en":
+    [
+        {
+            "degree":"Bachelor of Computer Engineering",
+            "time":"2020-...",
+            "school":"Polytechnique Montréal",
+            "specification":"30 credits"
+        },
+        {
+            "degree":"French Bachelor | Scientifique",
+            "time":"2020",
+            "school":"Collège International Marie de France",
+            "specification":"(Equal to Diplôme d'Étude Collégial(DEC) in Natural Science)"
+        }
+    ]
+}
