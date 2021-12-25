@@ -27,6 +27,66 @@ export const headerConfig  = async (manager) =>{
     }
 }
 
+export const skillConfig = async (manager) => {
+    const skills = await manager.getSkills();
+    const header = await manager.getStructure();
+    const basicComputerHeader = skills.computer.title.basic;
+    const advancedComputerHeader = skills.computer.title.advanced;
+
+    const skillsContainer = document.getElementById(`knowledge`);
+    const headerContainer = document.createElement(`h2`);
+
+    const computerSkillsContainer = document.createElement(`div`);
+
+    const basicComputerSkillsContainer = document.createElement(`div`);
+    const advancedComputerSkillsContainer = document.createElement(`div`);
+    const basicComputerHeaderContainer = document.createElement(`h4`);
+    const advancedComputerHeaderContainer = document.createElement(`h4`);
+    const basicComputerListContainer = document.createElement(`ul`);
+    const advandedComputerListContainer = document.createElement(`ul`);
+    
+    for(const basicSkill of skills.computer.skills.basic){
+        const skillContainer = document.createElement(`li`);
+        skillContainer.innerText = basicSkill;
+        basicComputerListContainer.appendChild(skillContainer);
+    }
+    
+    for(const advancedSkill of skills.computer.skills.advanced){
+        const skillContainer = document.createElement(`li`);
+        skillContainer.innerText = advancedSkill;
+        advandedComputerListContainer.appendChild(skillContainer);
+    }
+    computerSkillsContainer.className = `skills`;
+    advandedComputerListContainer.className = `list-computer-skills`;
+    basicComputerListContainer.className = `list-computer-skills`;
+    
+    headerContainer.innerText = header.knowledge;
+    basicComputerHeaderContainer.innerText = basicComputerHeader;
+    advancedComputerHeaderContainer.innerText = advancedComputerHeader;
+    advancedComputerSkillsContainer.appendChild(advancedComputerHeaderContainer);
+    advancedComputerSkillsContainer.appendChild(advandedComputerListContainer);
+    basicComputerSkillsContainer.appendChild(basicComputerHeaderContainer);
+    basicComputerSkillsContainer.appendChild(basicComputerListContainer);
+    
+    computerSkillsContainer.appendChild(advancedComputerSkillsContainer);
+    computerSkillsContainer.appendChild(basicComputerSkillsContainer);
+    skillsContainer.appendChild(headerContainer);
+    skillsContainer.appendChild(computerSkillsContainer);
+}
+
+export const langConfig = async (manager) =>{
+    const skills = await manager.getSkills();
+    const languageSkillsContainer = document.getElementById(`lang`);
+    const languageHeaderContainer = document.createElement(`h2`)
+    languageSkillsContainer.appendChild(languageHeaderContainer);
+    languageHeaderContainer.innerText = skills.language.header;
+    for (const language of Object.keys(skills.language.skills)){
+        const languageContainer = document.createElement(`p`)
+        languageContainer.innerText = `${skills.language.skills[language].icon} ${skills.language.title[language].title} - ${skills.language.title[language].specification} - ${skills.language.skills[language].level} `;
+        languageSkillsContainer.appendChild(languageContainer);
+    }
+
+}
 
 export const presentationConfig = async (manager) => {
     const presentation = await manager.getPresentation();
@@ -141,8 +201,11 @@ export const hobbieConfig = async (manager) => {
     hobbiesContainer.appendChild(headerContainer);
     hobbiesContainer.appendChild(hobbieListContainer);
 }
+
 headerConfig(cvManager);
 presentationConfig(cvManager);
 DegreeConfig(cvManager);
 jobConfig(cvManager);
 hobbieConfig(cvManager);
+skillConfig(cvManager);
+langConfig(cvManager);

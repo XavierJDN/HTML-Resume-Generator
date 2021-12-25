@@ -27,6 +27,8 @@ ul{
 
 .skills .list-computer-skills{
     padding:0 1em;
+    display:grid;
+    grid-template:repeat(2,1fr) / repeat(3, 1fr);
 }
 
 .skills h4{
